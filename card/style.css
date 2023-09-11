@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+#container{
+    background-color: white;
+
+}
+
+.grid-item{
+    width: 100%;
+}
+
+.grid-container{
+    position:absolute;
+    left: 300px;
+    top: 50px;
+    display: grid;
+    grid-template-columns: 400px 420px;
+    grid-template-rows: 405.6px 405.6px;
+    height: 400px;
+    margin: 100px;
+}
+
+.con, .grid-container{
+    border-radius: 60px;
+    overflow-y: hidden;
+}
+
+.con, .grid-container{
+    border: 4px solid orangered;
+ 
+}
+
+.wrapper{
+    color: grey;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.wrapper2{
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    padding-top: 4px;
+    font-family: Times, serif;
+}
+
+.wrapper3{
+    color: grey;
+    font-size: 20px;
+    padding: 20px;
+    padding-top: 2px;
+}
+
+.wrapper4{
+    color: green;
+    font-size: 40px;
+    padding: 20px;
+    padding-top: 4px;
+}
+
+.wrapper5{
+    text-align: center;
+    display: inline;
+    /* padding: 30px; */
+    padding-top: 3px;
+    padding-left: 40px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    /* background-color: green; */
+    width: 300px;
+    height: 30px;
+    position: absolute;
+}
+
+
+#one{
+    color: grey;
+    font-size: 20px;
+}
+
+#sec{
+    /* padding: 20px;
+    font-size: 40px;
+    font-weight: bolder; */
+}
+
+#sec2{
+    /* padding: 20px; */
+}
+
+@media (min-width: 650px) {
+    .card-box {
+      display: flex;
+      max-width: 700px;
+    }
+  
+    .desktop_img {
+      display: block;
+      width: 900px;
+      height: 100%;
+      border-radius: 1.5em 0 0 1.5em;
+    }
+  
+    .mobile_img {
+      display: none;
+    }
+  
+    .product_title {
+      width: 80%;
+    }
+  }
+  
